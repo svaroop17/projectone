@@ -1,0 +1,354 @@
+
+body {
+	margin: 0;
+	padding: 0; 
+}	
+
+/********************************     Header css starts  *******************************************/
+.top-contents {
+	font-size: 13px;
+	font-weight:normal;
+	/*border: black solid thin;*/
+	height: auto;
+	float:left;
+	background:url('../images/top_most_strip.jpg') repeat-x;
+}
+.top-contents .left-contents {
+	/*border: black solid thin;*/
+	margin-left: 125px;
+	padding: 5px 0;
+}	
+ul.left-contents {
+	margin: 0;
+	padding:0;
+}
+ul.left-contents li {
+	/*border : black solid thin;*/
+	list-style-type: none;
+	float: left;
+	margin-right: 0px;
+}	
+.social-links {
+	float: right;
+	margin-right: 120px;
+	padding: 5px 0;
+	/*border: black solid thin;*/
+}
+.social-links a{
+	display : inline-block;
+}
+
+img {
+	max-width : 100%;
+}
+@media screen and (max-width:576px) {
+		.top-contents  {
+		/*border: black solid thin;*/
+	}
+	.top-contents .left-contents {
+		/*border: black solid thin;*/
+		margin-left: 0;
+	}
+	ul.left-contents li {
+			/*border : black solid thin;*/
+			list-style-type: none;
+			float: left;
+		}	
+	.social-links {
+		float: none;
+		margin-right: 0px;
+		/*border: black solid thin;*/
+	}
+	.fa {
+		width :15px;
+	}
+}
+
+.top-new-banner {
+	position: relative;
+	height : 81px;
+	max-width: 100%;
+	background-image:url('../images/new_banner.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: auto;
+	/*border: black solid thin;*/
+	
+}
+/********************************     Header css ends Here   *******************************************/
+
+
+/********************************     Top banner css    *******************************************/
+
+ul.container {
+	/*border: solid thin;*/
+}
+ul.container li {
+	
+	float : left;
+	width: 170px;
+	font-size: 13px;
+	font-weight:bold;
+	display: inline-block;
+/*	border: solid thin; */
+	list-style-type: none;
+}	
+ul.container li:last-child {
+	padding-left : 25px;
+}
+.top_banner {
+	background:url('../images/index2-top-bg.jpg') no-repeat;
+	background-position:right center;
+	height:100px;
+	max-width: 100%;
+}
+.top_banner_logo {
+	background:url('../images/logo.png') no-repeat;
+	height: 80px;
+	width: 320px;
+	/*border: black solid thin; */
+	margin-top: -10px;
+	margin-left: 100px;
+	float: left;
+}
+
+.purpple_color {
+	color: #990099;
+}
+.cutting_head {
+	background:url('../images/cutting_head.png') no-repeat;
+	margin-left: -20px;
+	margin-top: -10px;
+	height: 79px;
+	width: 300px;
+	float: left;
+	/*border: black solid thin; */
+}
+
+.top_banner_links {
+	/*border : black solid thin;*/
+	float: left; 
+}
+ul.top_banner_links {
+	/*border :black solid thin;*/
+	margin : 25px 0;
+	padding: 0;
+	margin-left: 665px;
+}
+
+ul.top_banner_links li {
+	float : left;
+	list-style-type : none;
+}
+
+ul.top_banner_links li a {
+	text-decoration: none;
+	color: white;
+	font-size:15px;
+	display : inline-block;
+	padding: 6px 24px;
+	/*border :black solid thin;*/
+}
+ul.top_banner_links li a:hover {
+	background-color: #990099;
+	border-radius : 2px;
+}
+
+.top-new-banner {
+
+}
+/********************************     Top banner css ends here   *******************************************/
+
+
+/********************************     Font Awesome starts Here   *******************************************/
+.fa { 
+  padding: 2px 2px;
+  font-size: 15px;
+  width: 19px;
+  height: 19px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 4px;
+  border-radius : 4px;
+  /*border: black solid thin; */
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+/********************************     Font Awesome ends Here   *******************************************/
+
+
+/********************************     Top Section  ends Here   *******************************************/
+.top_section {
+		border : black solid thin;
+}
+
+.top_section p {
+			border : black solid thin;
+		font-size: 14px;
+		text-align:center;
+}
+
+h1.head {
+	font-size: 24px;
+}
+.bold_text {
+	 font-weight:bold;
+}
+
+.middle_section {
+	boder : black solid thin;
+}
+.middle_slidder {
+	width: 80%;
+	margin: auto;
+	/*border :black solid thin;*/
+}
+.middle_slidder_section {
+	border: none;
+}
+.bottom-text {
+	text-align : left;
+	padding:15px;
+	font-size: 14px;
+}
+.bottom-text p:first-child{
+	font-weight: bold;
+}
+.bottom-text .button {
+	padding : 10px 20px;
+	background-color:#990099;
+	color:white;
+	font-size:14px;
+	border: none;
+	margin-top:10px;
+}
+/********************************     top section ends Here   *******************************************/
+
+/********************************     Bottom links section starts here   *******************************************/
+.bottom_links {
+	width : 100%;
+	margin:auto;
+	/*border: black solid thin;*/
+}
+.bottom_links ul {
+	margin : 0;
+	padding : 0;
+	/*border: black solid thin;*/
+}
+.bottom_links ul li {
+	list-style-type : none;
+	margin: 10px 0;
+}
+.bottom_links ul li a {
+	text-decoration: none;
+	color: black;
+	font-size:13px;	
+}
+.arrow-glyphi-font-size {
+	font-size:10px;
+}
+.bottom_links button {
+	background-color:#990099;
+	color:white;
+	border: none;
+}
+.bottom_links ul.contact li span{
+	/*border: black solid thin;*/
+	padding-right: 20px;
+	width : 35px;
+	float: left;
+}
+.bottom_links ul.contact li p{
+	/*border: black solid thin;*/
+	padding-right: 20px;
+	width : 50px;
+	float: left;
+	width: 80%;
+	font-size:13px;
+}
+
+.contact-glyphi {
+	margin-top:3px;
+	font-size: 14px;
+}
+.first_list {
+	/*border: black solid thin;*/
+	padding-left: 150px;
+}
+.second_list {
+	/*border: black solid thin;*/
+	padding-left : 30px;
+}
+.third_list {
+	/*	border: black solid thin;*/
+}
+/********************************     Bottom links section ends here   *******************************************/
+
+/********************************     Footer section starts here   *******************************************/
+.footer {
+
+	background:url('../images/footer.png') repeat-x;
+	height: 35px;
+	color: white;
+	font-size: 12px;
+	/*border :black solid thin;*/
+}
+
+ .p1 {
+	margin-top : 8px;
+	margin-left: 150px;
+}
+
+.p2{ 
+	margin-top : 8px;
+	float : right;
+	margin-right:150px;
+}
+/********************************     Footer section ends here   *******************************************/
+
+/********************************    Horizontal line css starts here   *******************************************/
+.hr {
+	background-color:black;
+	border: #CCCCCC solid 1px;
+	width: 8%;
+	margin : 14px auto;
+}
+
+.hr3 {
+	border: #990099 solid 1.5px;
+	width : 10%;
+	
+}
+/********************************     Horizontal line css ends here   *******************************************/
+
+.clear {
+	clear : both;
+}
+
+@media screen and (max-width:576px) {
+	.fa {
+		margin :2px;
+	}
+}
